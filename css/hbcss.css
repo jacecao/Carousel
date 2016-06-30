@@ -26,8 +26,7 @@ body
 {
 	display: inline-block;
 	height: 44px;
-	width:6%;
-	margin-left: 4%;
+	width:10%;
 }
 #navi .leader li:first-child
 {
@@ -36,10 +35,16 @@ body
 #navi .leader li a
 {
 	display: inline-block;
+	width: 100%;
+	padding: 0 5px;
 	height: 44px;
 	text-decoration: none;
 	line-height: 44px;
 	color:white;
+}
+#navi .leader li a:hover
+{
+	background: #000;
 }
 /* / NAV */
 
